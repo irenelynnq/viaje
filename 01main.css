@@ -1,0 +1,54 @@
+/*CSS file of main page*/
+*{
+  font-family:Malgun Gothic, Dotum;
+}
+
+h1 {
+  width:1800px;
+  padding-top:180px;
+  padding-left:20px;
+  padding-bottom:20px;
+  font-size:80px;
+  font-weight:bold;
+  color:white;
+  background:#A3BFB7;
+  border-bottom:5px dashed #395953;
+  margin:0px;
+}
+
+h2 {
+  font-size:40px;
+  font-weight:bold;
+  color:#395953;
+}
+
+#page {
+  position:relative;
+  width:1800px;
+  overflow:visible
+}
+
+#info {
+  position:relative;
+  padding:20px;
+  background:#F2F2F2;
+  float:left;
+  height:800px;
+}
+
+#itinerary {
+  position:relative;
+  padding:20px;
+  background:#C1D9D4;
+  float:left;
+  height:800px;
+  width:720px;
+}
+
+#links {
+  position:relative;
+  padding:20px;
+  background:#F2F2F2;
+  float:left;
+  height:800px;
+}
