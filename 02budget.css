@@ -1,0 +1,17 @@
+/*CSS file of budget page*/
+*{
+  font-family:Malgun Gothic, Dotum;
+}
+
+h1 {
+  width:1560px;
+  padding-top:80px;
+  padding-left:20px;
+  padding-bottom:20px;
+  font-size:40px;
+  font-weight:bold;
+  color:white;
+  background:#A3BFB7;
+  border-bottom:5px dashed #395953;
+  margin:0px;
+}

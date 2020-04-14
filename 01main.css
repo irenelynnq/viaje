@@ -4,7 +4,7 @@
 }
 
 h1 {
-  width:1800px;
+  width:1560px;
   padding-top:180px;
   padding-left:20px;
   padding-bottom:20px;
@@ -24,7 +24,7 @@ h2 {
 
 #page {
   position:relative;
-  width:1800px;
+  width:1560px;
   overflow:visible
 }
 
@@ -42,7 +42,7 @@ h2 {
   background:#C1D9D4;
   float:left;
   height:800px;
-  width:720px;
+  width:500px;
 }
 
 #links {
