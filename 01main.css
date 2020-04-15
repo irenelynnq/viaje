@@ -22,18 +22,20 @@ h2 {
   color:#395953;
 }
 
+/*
 #page {
   position:relative;
   width:1600px;
   overflow:visible
 }
+*/
 
 #info {
   position:relative;
   padding:20px;
   background:#F2F2F2;
   float:left;
-  height:800px;
+  /*height:800px;*/
 }
 
 #itinerary {
@@ -41,7 +43,7 @@ h2 {
   padding:20px;
   background:#C1D9D4;
   float:left;
-  height:800px;
+  /*height:800px;*/
   width:500px;
 }
 
@@ -50,7 +52,7 @@ h2 {
   padding:20px;
   background:#F2F2F2;
   float:left;
-  height:800px;
+  /*height:800px;*/
 }
 
 #budgetlink {
