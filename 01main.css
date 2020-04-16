@@ -5,7 +5,7 @@
 
 h1 {
   width:1560px;
-  padding-top:180px;
+  padding-top:140px;
   padding-left:20px;
   padding-bottom:20px;
   font-size:80px;
@@ -35,7 +35,7 @@ h2 {
   padding:20px;
   background:#F2F2F2;
   float:left;
-  /*height:800px;*/
+  height:650px;
 }
 
 #itinerary {
@@ -43,7 +43,7 @@ h2 {
   padding:20px;
   background:#C1D9D4;
   float:left;
-  /*height:800px;*/
+  height:650px;
   width:500px;
 }
 
@@ -52,7 +52,7 @@ h2 {
   padding:20px;
   background:#F2F2F2;
   float:left;
-  /*height:800px;*/
+  height:650px;
 }
 
 #budgetlink {
@@ -70,4 +70,9 @@ h2 {
 
 #lastphoto {
   position:relative;
+  clear:both;
+}
+
+div{
+  border:0px solid red;
 }
