@@ -27,7 +27,6 @@ h1 {
   position:relative;
   float:right;
   margin-top:80px;
-  margin-bottom:20px;
   margin-right:20px;
   background-color:#A3BFB7;
   color:#F2F2F2;
@@ -44,34 +43,57 @@ h1 {
 
 #manage {
   position:relative;
-  padding:20px;
+  padding:15px;
+  padding-right:77px;
   background:#F2F2F2;
   float:left;
-  height:500px;
+  height:600px;
+}
+#manage>h3  {
+  margin:35px;
+  margin-top:50px;
+  margin-bottom:10px;
+}
+
+#manage p {
+  margin-left:35px;
 }
 
 #chi {
   position:relative;
-  padding:20px;
+  padding:15px;
   background:#C1D9D4;
   float:left;
-  height:500px;
+  height:600px;
 }
 
 #others {
   position:relative;
-  padding:20px;
+  padding:15px;
   background:#F2F2F2;
   float:left;
-  height:500px;
+  height:600px;
 }
 
 table {
+  margin:10px;
+  font-size:16px;
   border-collapse:collapse;
-  font-size:15px;
 }
 
 th, td {
   padding:15px;
+  padding-left:25px;
+  padding-right:25px;
+  border-bottom:1px solid #DDD;
+  text-align:left;
+}
+
+.number {
+  text-align:right;
+}
+
+tr:hover {
+  background-color:#A3BFB7;
 }
 

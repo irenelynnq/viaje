@@ -8,7 +8,7 @@ h1 {
   padding-top:140px;
   padding-left:20px;
   padding-bottom:20px;
-  font-size:80px;
+  font-size:60px;
   font-weight:bold;
   color:white;
   background:#A3BFB7;
@@ -22,13 +22,19 @@ h2 {
   color:#395953;
 }
 
-/*
+ul {
+  list-style-position:outside;
+  margin-left:0px;
+  margin-bottom:10px;
+  padding-left:15px;
+}
+
 #page {
   position:relative;
   width:1600px;
-  overflow:visible
+  overflow:visible;
 }
-*/
+
 
 #info {
   position:relative;
@@ -60,12 +66,22 @@ h2 {
   padding-right:20px;
   float:left;
   text-align:center;
+  opacity:0.7;
+}
+
+#budgetlink:hover {
+  opacity:1.0;
 }
 
 #photolink {
   position:relative;
   float:right;
   text-align:center;
+  opacity:0.7;
+}
+
+#photolink:hover {
+  opacity:1.0;
 }
 
 #lastphoto {
