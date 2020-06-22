@@ -5,23 +5,27 @@
 
 
 #header {
-  width:1560px;
+  float:left;
+  width:100%;
   background:#A3BFB7;
   border-bottom:5px dashed #395953;
 }
 
 h1 {
+  float:left;
   position:relative;
   padding-top:80px;
   padding-left:20px;
   padding-bottom:20px;
-  padding-right:0px;
+  padding-right:20px;
+  /*width:50%;*/
   font-size:40px;
   font-weight:bold;
   color:white;
   margin:0px;
   border:0px solid red;
   display:inline-block;
+  
 }
 
 
@@ -43,6 +47,32 @@ h1 {
   background-color:#72A69C;
 }
 
+.gallery-nav {
+  float: left;
+  list-style: none;
+  padding-top:85px;
+}
+
+.gallery-nav li {
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.gallery-nav li a:link,
+.gallery-nav li a:visited {
+  padding: 8px 0;
+  color: white;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s;
+}
+
+.gallery-nav li a:hover,
+.gallery-nav li a:active{
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+}
 
 .pic {
   margin:15px;
@@ -71,3 +101,5 @@ h1 {
 h2 {
   font-size:30px;
 }
+
+
